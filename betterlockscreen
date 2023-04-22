@@ -54,7 +54,7 @@ init_config () {
 
     # read user config
     USER_CONF_DIR="${XDG_CONFIG_HOME:-$HOME/.config}"
-    USER_CONF="$USER_CONF_DIR/betterlockscreenrc"
+    USER_CONF="$USER_CONF_DIR/betterlockscreen/betterlockscreenrc"
     SYS_CONF="/etc/betterlockscreenrc"
     XDG_USER_CONF="$USER_CONF_DIR/betterlockscreen/betterlockscreenrc"
 
